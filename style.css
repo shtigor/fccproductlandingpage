@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Baloo+Chettan|Courgette&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: 'Baloo Chettan', cursive; */
+}
+
+#header {
+  position: fixed;
+  font-family: 'Acme', sans-serif;
+  display: flex;
+  background-color: #fff6e7;
+  width: 100%;
+}
+
+#header-img {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
+}
+
+#nav-bar {
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-right: 6vw;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 25px;
+  margin-right: 40px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.history-section {
+  font-family: 'Courgette', cursive;
+  max-width: 50vw;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #bbb;
+  height: 50px;
+  margin-top: auto;
+}
+
+@media (max-width: 1110px) {
+  
+}
